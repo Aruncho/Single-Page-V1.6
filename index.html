@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Single Page V1.6</title>
+    <title>IS Web 2.0</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -69,19 +69,16 @@
         <div class="container">
 
             <div id="logo" class="logo">
-                <a href="#body" class="logo pull-left">WebSite</a>
+                <a href="#body" class="logo pull-left">InvenSoftware</a>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="#body">Home</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li class="menu-has-children"><a href="#!">Drop Down</a>
+                    <li class="menu-active"><a href="#body">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li class="menu-has-children"><a href="#!">Productos</a>
                         <ul>
                             <li><a href="#">Drop Down 1</a></li>
                             <li><a href="#">Drop Down 3</a></li>
@@ -89,7 +86,9 @@
                             <li><a href="#">Drop Down 5</a></li>
                         </ul>
                     </li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Precios</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="btn" role="button">Login</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
@@ -99,14 +98,13 @@
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="10000">
-                <img src="img/macbook.jpg" class="d-block w-100" alt="...">
-                <h1>First slide label</h1>
-                <h2>Nulla vitad pharetra augue mollis</h2>
+                <img src="img/carousel1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-interval="2000">
-                <img src="img/movil.jpg" class="d-block w-100" alt="...">
-                <h3>Lorem ipsum dolor sit amet.</h3>
-                <h4>Second slide label</h4>
+                <img src="img/carousel2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="img/carousel3.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -120,125 +118,54 @@
     </div>
     <!-- CAROUSEL END -->
 
-    <!-- PRODUCTS -->
-    <div id="products">
-        <div class="products pb-1">
-            <div class="box">
-                <div class="box1">
-                    <h1 class="subtitle">PRODUCTS</h1>
-                </div>
+    <!-- SERVICIOS -->
+    <div class="servicios">
+        <div class="container">
+            <div class="titles">
+                <h1 class="subtitle">NUESTROS SERVICIOS</h1>
+                <hr class="hr">
+                <h3 class="subtitle-text pb-5">Dependiendo de sus necesidades tambien podemos hacer desarrollos a su
+                    medida
+                    para
+                    adaptar el sistema a sus requerimientos</h3>
             </div>
 
-
-            <div class="card-group text-center">
-                <div class="card">
-                    <img src="img/desk.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="img/macbook.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
-                        </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="img/monitor.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height
-                            action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- PRODUCTS END -->
-
-    <!-- SERVICES 1 -->
-    <div id="services">
-        <div class="services1 text-center">
-            <h1 class="services1-text s1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Nobis,
-                minus.</h1>
-            <a href="#" class="btn mt-3 s1-text pt-3 pb-3" role="button">SHOW</a>
-        </div>
-    </div>
-    <!-- SERVICES 1 END -->
-
-    <!-- SERVICES 2 -->
-    <div class="services2 p-5">
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card s2">
-                    <h4><i class="fas fa-question mr-2"></i>Questions</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, corrupti.</p>
-                </div>
-                <div class="card s2">
-                    <h4><i class="fas fa-user-shield mr-2"></i>Questions</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card s2">
-                    <h4><i class="fab fa-android mr-2"></i>Android</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card s2">
-                    <h4><i class="fas fa-search mr-2"></i>Questions</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque error dolorem odio.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card s2">
-                    <h4><i class="fas fa-rocket mr-2"></i>Questions</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti commodi fugiat neque.</p>
-                </div>
-                <div class="card s2">
-                    <h4><i class="fas fa-paint-brush mr-2"></i>Questions</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    </div>
-    <!-- SERVICES 2 -->
-
-    <!-- ABOUT -->
-    <div id="about">
-        <div class="about">
-            <div class="container">
-                <div class="card c-about mb-3" style="max-width: 1920px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-6">
-                            <img src="img/machine.jpg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-6">
+            <div class="row wow fadeInUp">
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="card text-center">
+                            <img src="img/pc-mobile.png" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">About</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                                    deleniti autem quibusdam, consectetur asperiores deserunt eligendi repellendus.
-                                    Consectetur, eius voluptates!</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                                    voluptates amet praesentium.</p>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
-                                    quasi.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Desarrollamos aplicativos de Escritorio y Aplicativos para
+                                    Android.</h5>
+                                <p class="card-text">Contamos con la experiencia y herramientas para desarrollar
+                                    cualquier aplicativo de escritorio o movil que requiera su organizacion.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="card text-center">
+                            <img src="img/code.png" style="width: 77%; margin-left: 10%;" class="card-img-top img-fluid"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Desarrollamos Aplicativos WEB o WEB Sites para su Empresa.</h5>
+                                <p class="card-text">Si carece de presencia WEB, permitanos ayudarlo. Podemos
+                                    desarrollar su WEB SITE para que el Mundo le conozca.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <div class="card text-center">
+                            <img src="img/server.png" style="width: 78%; margin-left: 10%;"
+                                class="card-img-top img-fluid" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Desarrollamos en T-SQL para Aplicativos Bases de Datos.</h5>
+                                <p class="card-text">Somos expertos en Base de Datos relacionales y no relacionales,
+                                    realizamos las migraciones que necesite y optimizamos su Base de Datos.</p>
                             </div>
                         </div>
                     </div>
@@ -246,46 +173,142 @@
             </div>
         </div>
     </div>
-    <!-- ABOUT END -->
 
-    <!-- FOOTER -->
-    <div class="footer text-center">
+    <div class="division">
         <hr>
-        <h4>Disegned by <span>Aruncho</span></h4>
-        <h4>If you need help contact me!</h4>
+    </div>
+    <!-- SERVICIOS END -->
 
-        <div class="form-inline justify-content-center pt-5">
-            <input type="email" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2">
-            <input type="button" value="Contact Me" class="btn px-4 py-2" id="bot">
+    <!-- SOPORTE -->
+    <div class="soporte">
+        <div class="container">
+            <h1 class="subtitle ">NUESTRO SOPORTE</h1>
+            <hr class="hr">
+            <h3 class="subtitle-text pb-5">Tenemos más de 10 años atendiendo clientes en todo el Pais,
+                brindandole soporte Presencial, Remoto y ofreciendole consultorías administrativa para optimizar su
+                gestión y tengan un negocio rentable.</h3>
+
+            <div class="box wow fadeInLeft">
+                <div class="row pt-5">
+                    <div class="col-md-6">
+                        <img class="img1" src="img/support.png"
+                            style="width: 70%; margin-left: 15%; margin-bottom: 10%;" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="title1">No se inquiete</h2>
+                        <p class="p1">No siempre es necesario una presencia fisica, la cual naturalmente tiene un coste
+                            mayor,
+                            tambien puede contratar de forma puntual o por un tiempo el soporte remoto, pudiendo usar
+                            herramientas gratuitas como Teamviewer o LogmeIn o cualquier otro software de control remoto
+                            que tienen tambien capacidades de transmitir audio para una facil atencion.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box wow fadeInRight" data-wow-delay="0.3s">
+                <div class="row pt-5">
+                    <div class="col-md-6">
+                        <img class="img1" src="img/contract.png"
+                            style="width: 55%; margin-left: 25%; margin-bottom: 10%;" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="title2">Tenemos experiencia</h2>
+                        <p class="p2">Podemos dar soluciones a sus procesos administrativos, muchas veces nos hemos
+                            topado con pymes que no tienen definidos sus procesos ni tienen procedimientos, para ellos
+                            tambien estamos nosotros.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="row pt-5">
+                    <div class="col-md-6">
+                        <img class="img1" src="img/help.png" style="width: 55%; margin-left: 25%; margin-bottom: 10%;"
+                            alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="title1">Podemos brindarle soporte presencial</h2>
+                        <p class="p1">Soporte personal en sus oficinas o establecimientos en casos los requiriese, estos
+                            no suelen ocurrir muy seguido pero cuando nos necesite alli estamos. Realizando
+                            mantenimiento a Laptops, Desktop, Impresoras, CCTV, Redes, etc.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
+    <!-- SOPORTE END-->
 
-        <div class="social" style="margin:5%">
-            <div class="d-flex flex-row justify-content-center">
-                <i class="fab fa-facebook-f fa-2x m-2"></i>
-                <i class="fab fa-twitter fa-2x m-2"></i>
-                <i class="fab fa-instagram fa-2x m-2"></i>
+    <!-- ¿WHY? -->
+    <div class="why">
+        <div class="container">
+            <h1 class="text-center">¿POR QUÉ ELEGIR INVENSOFTWARE?</h1>
+            <h4 class="text-center">Software de Gestion</h4>
+
+            <div class="row pt-5">
+                <div class="col">
+                    <img src="img/people.png" alt="">
+                </div>
+
+                <div class="col pt-5">
+                    <h3><i class="fas fa-user-tie pr-2"></i>Aplicado a todo tipo de Negocio</h3>
+                    <h5>Nuestros más de 20 años en el mercado nos permiten ofrecer un producto que se adapta
+                        muy fácilmente a cualquier tipo de Negocio.</h5>
+
+                    <br>
+                    <br>
+
+                    <h3><i class="fas fa-palette pr-2"></i>Soporte Personalizado</h3>
+                    <h5>Contamos con una herramienta para la atención de sus consultas desde el desde el
+                        primer día, así como Materiales de Vídeos y Guías.</h5>
+
+                    <br>
+                    <br>
+
+                    <h3><i class="fas fa-tachometer-alt pr-2"></i>Rápida Implementación</h3>
+                    <h5>Nuestros más de 10 años en el mercado nos han permitido establecer una metodología
+                        de implementación del InvenSoftware en días.</h5>
+
+                    <br>
+                    <br>
+
+                    <h3><i class="fas fa-check-square pr-2"></i>Fácil de usar</h3>
+                    <h5>Fácil y muy intuitivo, esa es la principal característica destacada por nuestros
+                        clientes actuales y no requiere de experiencia en uso de otros sistemas empresariales.</h5>
+                </div>
             </div>
         </div>
     </div>
-    <!-- FOOTER END -->
+    <!-- ¿WHY? END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- SCRIPTS REVEAL ANIMATION -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script>
-        window.sr = ScrollReveal({ duration: 1500 })
-        ScrollReveal().reveal('.card-group');
-        ScrollReveal().reveal('.s1-text');
-        ScrollReveal().reveal('.s2');
-        ScrollReveal().reveal('.c-about');
-        ScrollReveal().reveal('.footer');
+        window.sr = ScrollReveal({ duration: 2000 })
+        ScrollReveal().reveal('.servicios .card');
+        ScrollReveal().reveal('.why .container');
+
     </script>
-
-
-
-
-
-
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
